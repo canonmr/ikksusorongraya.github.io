@@ -562,6 +562,49 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1em;
 }
 
+/* Vision & Mission */
+.vision-mission {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 32px;
+  margin-top: 64px;
+}
+
+.vm-card {
+  background: var(--pure-white);
+  padding: 40px;
+  border-left: 4px solid var(--muted-gold);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  transition: transform var(--transition-normal);
+}
+
+.vm-card:hover {
+  transform: translateY(-5px);
+}
+
+.vm-card h4 {
+  font-size: 1.25rem;
+  color: var(--batak-maroon);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.vm-card p, .vm-card ul {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.vm-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.vm-card li {
+  margin-bottom: 8px;
+}
+
 /* ============================================
    CULTURAL EDUCATION SECTION
    ============================================ */
