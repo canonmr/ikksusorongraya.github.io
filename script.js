@@ -75,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
     rootMargin: '0px 0px -40px 0px'
   });
 
+  // Expose to window for dynamic content (like gallery items)
+  window.revealObserver = revealObserver;
+
   reveals.forEach(el => revealObserver.observe(el));
 
   // --- Scroll Events (throttled) ---

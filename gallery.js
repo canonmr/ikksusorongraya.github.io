@@ -15,6 +15,11 @@ async function loadGallery() {
         for (const album of albums) {
             const albumCard = await createAlbumCard(album);
             galleryContainer.appendChild(albumCard);
+            
+            // Register with scroll reveal observer if available
+            if (window.revealObserver) {
+                window.revealObserver.observe(albumCard);
+            }
         }
     } catch (error) {
         console.error('Error loading albums:', error);
