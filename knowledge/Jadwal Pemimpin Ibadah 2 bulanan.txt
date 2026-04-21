@@ -1,0 +1,121 @@
+Horass!!!
+Diberitahukan kepada seluruh anggota IKKSU, bahwa untuk kelancaran pelaksanaan kegiatan ibadah bersama, maka telah disusun jadwal pemimpin ibadah. Kami mengharapkan kesediaan dan tanggung jawab dari setiap petugas yang telah dijadwalkan.
+
+Apabila terdapat halangan pada jadwal yang telah ditentukan, diharapkan dapat segera berkoordinasi dengan pengurus atau mencari pengganti.
+
+Demikian pengumuman ini disampaikan. Atas perhatian dan kerja samanya kami ucapkan terima kasih.
+
+Tuhan memberkati kita semua.
+
+
+{
+  "judul": "JADWAL PEMIMPIN IBADAH ETNIS IKKSU (Ikatan Katolik Sumatera Utara) SE-SORONG RAYA",
+  "data_jadwal": [
+    {
+      "no": 1,
+      "nama_pemimpin": "BAPAK. M. PURBA",
+      "bulan": "MARET",
+      "tahun": 2026,
+      "keterangan": "PAROKI STO. YOHPEM"
+    },
+    {
+      "no": 2,
+      "nama_pemimpin": "Bapak. H. Ompusunggu",
+      "bulan": "MEI",
+      "tahun": 2026,
+      "keterangan": "PAROKI STO. PETRUS"
+    },
+    {
+      "no": 3,
+      "nama_pemimpin": "Bapak. S. Marpaung",
+      "bulan": "JULI",
+      "tahun": 2026,
+      "keterangan": "PAROKI KATEDRAL"
+    },
+    {
+      "no": 4,
+      "nama_pemimpin": "BAPAK. IDEL. LUMBANGAOL",
+      "bulan": "SEPTEMBER",
+      "tahun": 2026,
+      "keterangan": "PAROKI STO. YOHPEM"
+    },
+    {
+      "no": 5,
+      "nama_pemimpin": "NY. BR. MANIK (OP. BEN)",
+      "bulan": "NOVEMBER",
+      "tahun": 2026,
+      "keterangan": "PAROKI STO. PETRUS"
+    },
+    {
+      "no": 6,
+      "nama_pemimpin": "MAMA SARTON SARAGIH",
+      "bulan": "JANUARI",
+      "tahun": 2027,
+      "keterangan": "PAROKI KATEDRAL"
+    },
+    {
+      "no": 7,
+      "nama_pemimpin": "BAPAK. EDMUNDUS KALAU PANJAITAN",
+      "bulan": "MARET",
+      "tahun": 2027,
+      "keterangan": "PAROKI STO. YOHPEM"
+    },
+    {
+      "no": 8,
+      "nama_pemimpin": "Bapak. H. Ompusunggu",
+      "bulan": "MEI",
+      "tahun": 2027,
+      "keterangan": "PAROKI STO. PETRUS"
+    },
+    {
+      "no": 9,
+      "nama_pemimpin": "BAPAK. M. SIRINGORINGO",
+      "bulan": "JULI",
+      "tahun": 2027,
+      "keterangan": "PAROKI KATEDRAL"
+    },
+    {
+      "no": 10,
+      "nama_pemimpin": "BAPAK. G. SIMANJORANG",
+      "bulan": "SEPTEMBER",
+      "tahun": 2027,
+      "keterangan": "PAROKI STO. YOHPEM"
+    },
+    {
+      "no": 11,
+      "nama_pemimpin": "NY. BR. MANIK (OP. BEN)",
+      "bulan": "NOVEMBER",
+      "tahun": 2027,
+      "keterangan": "PAROKI STO. PETRUS"
+    },
+    {
+      "no": 12,
+      "nama_pemimpin": "Bapak. S. Marpaung",
+      "bulan": "JANUARI",
+      "tahun": 2028,
+      "keterangan": "PAROKI KATEDRAL"
+    },
+    {
+      "no": 13,
+      "nama_pemimpin": "BAPAK. F. SAMOSIR",
+      "bulan": "MARET",
+      "tahun": 2028,
+      "keterangan": "PAROKI STO. YOHPEM"
+    },
+    {
+      "no": 14,
+      "nama_pemimpin": "Bapak. H. Ompusunggu",
+      "bulan": "MEI",
+      "tahun": 2028,
+      "keterangan": "PAROKI STO. PETRUS"
+    },
+    {
+      "no": 15,
+      "nama_pemimpin": "BAPAK. M. SIRINGORINGO",
+      "bulan": "JULI",
+      "tahun": 2028,
+      "keterangan": "PAROKI KATEDRAL"
+    }
+  ],
+  "catatan": "JIKA PEMIMPIN IBADAH BERHALANGAN TOLONG DI KONFIRMASIKAN KEPADA KETUA IKKSU, DAN MENCARI PENGGANTINYA TERIMAKASIH"
+}

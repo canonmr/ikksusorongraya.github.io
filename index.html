@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKKSU Sorong Raya — Ikatan Keluarga Katolik Sumatera Utara</title>
+  <meta name="description" content="Website resmi IKKSU Sorong Raya — Ikatan Keluarga Katolik Sumatera Utara di Sorong Raya, Papua Barat Daya. Melestarikan warisan budaya, membangun persaudaraan.">
+  <meta name="keywords" content="IKKSU, Sorong Raya, Katolik, Sumatera Utara, Batak, komunitas, budaya, gereja">
+  <meta name="author" content="IKKSU Sorong Raya">
+  <link rel="icon" type="image/png" href="images/logo-small.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">
+        <!-- Rumah Bolon roofline logo -->
+        <img src="images/logo-small.png" alt="Logo IKKSU Sorong Raya" class="logo-img">
+        <div class="nav-logo-text">
+          Ikatan Keluarga Katolik Sumatera Utara
+          <span>Sorong Raya, Provinsi Papua Barat Daya</span>
+        </div>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#anggota">Keanggotaan</a>
+        <a href="#pendidikan">Kegiatan</a>
+        <a href="#galeri">Galeri</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#anggota">Keanggotaan</a>
+    <a href="#pendidikan">Kegiatan</a>
+    <a href="#galeri">Galeri</a>
+  </div>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="home">
+    <div class="hero-gorga-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-tagline">Melestarikan Warisan, Membangun Persaudaraan</p>
+        <h1 class="hero-title">
+          Ikatan Keluarga Katolik<br>
+          <span class="highlight">Sumatera Utara</span><br>
+          Sorong Raya
+        </h1>
+        <p class="hero-subtitle">
+          Persekutuan umat Katolik asal Sumatera Utara yang hidup dalam kasih persaudaraan, 
+          bersaksi sebagai garam dan terang di tanah Papua — bersatu dalam iman dan budaya.
+        </p>
+        <a href="#tentang" class="hero-cta">
+          Jelajahi Warisan Kami
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Rumah Bolon silhouette -->
+    <div class="hero-visual">
+      <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Stilts / Foundation -->
+        <rect x="180" y="420" width="18" height="180" rx="2"/>
+        <rect x="280" y="440" width="18" height="160" rx="2"/>
+        <rect x="500" y="440" width="18" height="160" rx="2"/>
+        <rect x="600" y="420" width="18" height="180" rx="2"/>
+        <!-- Cross beams under floor -->
+        <rect x="170" y="410" width="460" height="14" rx="2"/>
+        <rect x="170" y="430" width="460" height="8" rx="1"/>
+        <!-- Main body -->
+        <rect x="160" y="260" width="480" height="155" rx="2"/>
+        <!-- Walls texture lines -->
+        <line x1="160" y1="290" x2="640" y2="290" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <line x1="160" y1="320" x2="640" y2="320" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <line x1="160" y1="350" x2="640" y2="350" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <line x1="160" y1="380" x2="640" y2="380" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <!-- Door -->
+        <rect x="360" y="310" width="80" height="105" rx="2" opacity="0.3"/>
+        <!-- Windows -->
+        <rect x="220" y="300" width="60" height="50" rx="2" opacity="0.2"/>
+        <rect x="520" y="300" width="60" height="50" rx="2" opacity="0.2"/>
+        <!-- Saddleback Roof -->
+        <path d="M400 30 L80 260 H160 L400 80 L640 260 H720 Z" />
+        <!-- Roof ridge -->
+        <line x1="400" y1="30" x2="400" y2="80" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+        <!-- Extended eaves left -->
+        <path d="M80 260 L40 250 L160 260Z" opacity="0.7"/>
+        <!-- Extended eaves right -->
+        <path d="M720 260 L760 250 L640 260Z" opacity="0.7"/>
+        <!-- Roof peak ornaments (singa) -->
+        <path d="M400 30 L390 10 L400 15 L410 10 Z" />
+        <path d="M80 260 L60 248 L75 255Z" />
+        <path d="M720 260 L740 248 L725 255Z" />
+        <!-- Gorga decoration on facade -->
+        <circle cx="400" cy="200" r="30" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.2"/>
+        <circle cx="400" cy="200" r="18" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <path d="M370 200 Q385 180 400 200 Q415 220 430 200" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+        <!-- Stairs -->
+        <rect x="365" y="415" width="70" height="8" rx="1" opacity="0.5"/>
+        <rect x="370" y="428" width="60" height="8" rx="1" opacity="0.4"/>
+        <rect x="375" y="441" width="50" height="8" rx="1" opacity="0.3"/>
+      </svg>
+    </div>
+
+    <div class="hero-divider"></div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="section about" id="tentang">
+    <div class="about-gorga-rule"></div>
+    <div class="container">
+      </div>
+
+      <!-- Integrated Management Section -->
+      <div class="management-section reveal">
+        <h3 class="subsection-title">Struktur Organisasi <span class="highlight">Masa Bakti 2026–2031</span></h3>
+        <div class="management-grid">
+          <div class="management-card">
+            <span class="m-role">Ketua</span>
+            <span class="m-name">A. Maximilian Siringoringo</span>
+            <a href="tel:082198423826" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0821 9842 3826
+            </a>
+          </div>
+          <div class="management-card">
+            <span class="m-role">Wakil Ketua</span>
+            <span class="m-name">A. Orin Purba</span>
+            <a href="tel:081344028669" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0813 4402 8669
+            </a>
+          </div>
+          <div class="management-card">
+            <span class="m-role">Sekretaris 1</span>
+            <span class="m-name">Ina Ignasia Siagian</span>
+            <a href="tel:081344824177" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0813 4482 4177
+            </a>
+          </div>
+          <div class="management-card">
+            <span class="m-role">Sekretaris 2</span>
+            <span class="m-name">A. Gava Situmorang</span>
+            <a href="tel:081344000496" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0813 4400 0496
+            </a>
+          </div>
+          <div class="management-card">
+            <span class="m-role">Bendahara Umum</span>
+            <span class="m-name">Op. Brillian Siagian Boru</span>
+            <a href="tel:082289671321" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0822 8967 1321
+            </a>
+          </div>
+          <div class="management-card">
+            <span class="m-role">Bendahara Diakonia</span>
+            <span class="m-name">Ina Gaby K. Tambunan</span>
+            <a href="tel:085254778649" class="m-contact">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0852 5477 8649
+            </a>
+          </div>
+        </div>
+        <div class="advisory-board">
+          <h4>Dewan Penasehat</h4>
+          <ul>
+            <li>A. Ompusunggu</li>
+            <li>Op. Julio B Tarigan</li>
+            <li>A. Lumbangaol</li>
+            <li>Op. Sangkara Marpaung</li>
+            <li>Op. Tiarma Ambarita</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CULTURAL EDUCATION / KEGIATAN SECTION
+       ============================================ -->
+  <section class="section education" id="pendidikan">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="accent-line"></span>
+        <h2>Kegiatan & Pelayanan</h2>
+        <p>Mempererat iman, melestarikan budaya, dan membangun solidaritas sesama anggota.</p>
+      </div>
+
+      <div class="education-grid">
+        <!-- Card 1: Liturgi -->
+        <div class="edu-card reveal">
+          <div class="edu-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Liturgi & Ibadah</h3>
+          <p>
+            Ibadah bersama etnis Sumatera Utara setiap dua bulan sekali secara bergantian di paroki-paroki Sorong Raya.
+          </p>
+          <a href="#jadwal" class="edu-card-link">
+            Lihat Jadwal
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Card 2: Budaya & Adat -->
+        <div class="edu-card reveal">
+          <div class="edu-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 18V5l12-2v13"/>
+              <circle cx="6" cy="18" r="3"/>
+              <circle cx="18" cy="16" r="3"/>
+            </svg>
+          </div>
+          <h3>Budaya & Adat</h3>
+          <p>
+            Melestarikan tradisi Batak Toba, Simalungun, Karo, Nias, dan lainnya melalui acara adat dan penggunaan ulos.
+          </p>
+          <a href="#galeri" class="edu-card-link">
+            Galeri Budaya
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Card 3: Solidaritas & Diakonia -->
+        <div class="edu-card reveal">
+          <div class="edu-card-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h3>Solidaritas & Diakonia</h3>
+          <p>
+            Program santunan kedukaan dan kunjungan sakit sebagai wujud kasih persaudaraan Kristiani.
+          </p>
+          <a href="#anggota" class="edu-card-link">
+            Ketentuan Santunan
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Integrated Worship Schedule -->
+      <div class="schedule-section reveal" id="jadwal">
+        <h3 class="subsection-title">Jadwal Pemimpin Ibadah 2 Bulanan <span class="highlight">2026–2028</span></h3>
+        <div class="table-wrapper">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Pemimpin Ibadah</th>
+                <th>Waktu</th>
+                <th>Lokasi Pelaksanaan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>BAPAK. M. PURBA</td><td>Maret 2026</td><td>PAROKI STO. YOHPEM</td></tr>
+              <tr><td>2</td><td>Bapak. H. Ompusunggu</td><td>Mei 2026</td><td>PAROKI STO. PETRUS</td></tr>
+              <tr><td>3</td><td>Bapak. S. Marpaung</td><td>Juli 2026</td><td>PAROKI KATEDRAL</td></tr>
+              <tr><td>4</td><td>BAPAK. IDEL. LUMBANGAOL</td><td>September 2026</td><td>PAROKI STO. YOHPEM</td></tr>
+              <tr><td>5</td><td>NY. BR. MANIK (OP. BEN)</td><td>November 2026</td><td>PAROKI STO. PETRUS</td></tr>
+              <tr><td>6</td><td>MAMA SARTON SARAGIH</td><td>Januari 2027</td><td>PAROKI KATEDRAL</td></tr>
+              <tr><td>7</td><td>BAPAK. EDMUNDUS KALAU PANJAITAN</td><td>Maret 2027</td><td>PAROKI STO. YOHPEM</td></tr>
+              <tr><td>8</td><td>Bapak. H. Ompusunggu</td><td>Mei 2027</td><td>PAROKI STO. PETRUS</td></tr>
+              <tr><td>9</td><td>BAPAK. M. SIRINGORINGO</td><td>Juli 2027</td><td>PAROKI KATEDRAL</td></tr>
+              <tr><td>10</td><td>BAPAK. G. SIMANJORANG</td><td>September 2027</td><td>PAROKI STO. YOHPEM</td></tr>
+              <tr><td>11</td><td>NY. BR. MANIK (OP. BEN)</td><td>November 2027</td><td>PAROKI STO. PETRUS</td></tr>
+              <tr><td>12</td><td>Bapak. S. Marpaung</td><td>Januari 2028</td><td>PAROKI KATEDRAL</td></tr>
+              <tr><td>13</td><td>BAPAK. F. SAMOSIR</td><td>Maret 2028</td><td>PAROKI STO. YOHPEM</td></tr>
+              <tr><td>14</td><td>Bapak. H. Ompusunggu</td><td>Mei 2028</td><td>PAROKI STO. PETRUS</td></tr>
+              <tr><td>15</td><td>BAPAK. M. SIRINGORINGO</td><td>Juli 2028</td><td>PAROKI KATEDRAL</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="schedule-note"><strong>Catatan:</strong> Jika pemimpin ibadah berhalangan, mohon dikonfirmasikan kepada Ketua IKKSU dan segera mencari pengganti. Terimakasih.</p>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       MEMBER DIRECTORY / KEANGGOTAAN SECTION
+       ============================================ -->
+  <section class="section members" id="anggota">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="accent-line"></span>
+        <h2>Keanggotaan</h2>
+        <p>Terbuka bagi semua keluarga Katolik asal Sumatera Utara di Sorong Raya tanpa memandang marga, suku, maupun status sosial.</p>
+      </div>
+
+      <div class="members-grid">
+        <!-- Anggota Biasa -->
+        <div class="member-card reveal">
+          <div class="member-avatar">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Anggota Biasa</h3>
+          <p class="member-role">Keluarga Inti</p>
+          <p>Keluarga Katolik asal Sumatera Utara yang telah berkeluarga dan bertempat tinggal di Sorong Raya.</p>
+          <div class="fee-badge">Iuran: Rp 25.000 / bln</div>
+        </div>
+
+        <!-- Anggota Naposo -->
+        <div class="member-card reveal">
+          <div class="member-avatar">
+            <svg viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h3>Anggota Naposo</h3>
+          <p class="member-role">Pemuda/Pemudi</p>
+          <p>Pemuda-pemudi Katolik yang belum berkeluarga dan merantau ke Sorong Raya tanpa orang tua.</p>
+          <div class="fee-badge free">Bebas Iuran Bulanan</div>
+        </div>
+
+        <!-- Anggota Kehormatan -->
+        <div class="member-card reveal">
+          <div class="member-avatar">
+            <svg viewBox="0 0 24 24">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <h3>Anggota Kehormatan</h3>
+          <p class="member-role">Tokoh Berjasa</p>
+          <p>Perseorangan atau tokoh yang berjasa luar biasa bagi IKKSU, ditetapkan melalui Musyawarah Anggota.</p>
+        </div>
+      </div>
+
+      <!-- Membership Dues & Rules Info -->
+      <div class="membership-details reveal">
+        <div class="details-grid">
+          <div class="details-text">
+            <h3>Ketentuan Iuran & Keaktifan</h3>
+            <ul>
+              <li><strong>Iuran Wajib:</strong> Rp 25.000 per bulan per keluarga (Anggota Biasa).</li>
+              <li><strong>Batas Pembayaran:</strong> Paling lambat tanggal 25 setiap bulannya.</li>
+              <li><strong>Metode:</strong> Transfer ke rekening resmi Bendahara IKKSU.</li>
+              <li><strong>Syarat Santunan:</strong> Masa keanggotaan minimal 3 bulan dan tidak menunggak iuran lebih dari 6 bulan.</li>
+            </ul>
+          </div>
+          <div class="details-cta">
+            <p>Dapatkan hak santunan duka cita dan santunan sakit dengan menjaga status keanggotaan aktif Anda.</p>
+            <a href="https://wa.me/6282198423826" class="btn-secondary">Daftar / Update Data</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member List by Paroki -->
+      <div class="members-directory reveal">
+        <h3 class="subsection-title">Daftar Kepala Keluarga (KK) Per Paroki</h3>
+        <div class="paroki-grid">
+          <div class="paroki-card">
+            <h4>Paroki Katedral, Kampung Baru</h4>
+            <ol>
+              <li>Kel. Op. Cecilia Siringoringo / br. Rumapea</li>
+              <li>Kel. Maximilian Siringoringo / br. Rumapea</li>
+              <li>Kel. Rama Damanik / br. Simanjuntak (Eiren)</li>
+              <li>Kel. J. Saragih / br. Purba (Sarton)</li>
+              <li>Kel. S. Marpaung / br. Rajagukguk (Op. Shankara)</li>
+              <li>Kel. Siburian / br. Pasaribu</li>
+              <li>Kel. J. Tarigan / br. Ginting (Op. Veronika)</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki Emaus</h4>
+            <ol>
+              <li>Kel. Op. Lukas Simanjorang (+) / br. Manurung</li>
+              <li>Z.Marpaung / Br Tampubolon (Bp Wati)</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki St. Petrus, Remu</h4>
+            <ol>
+              <li>Kel. Daniel Ginting / br. Sembiring (Bp. Bethesda)</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki St. Yohanes Pembaptis</h4>
+            <ol>
+              <li>Kel. Gava Situmorang / br. Sitinjak</li>
+              <li>Kel. Tambunan / br. Manurung (Gaby)</li>
+              <li>Kel. J. Tambunan / br. Harianja (Bpk. Juan)</li>
+              <li>Kel. Purba / br. Manurung (Orin)</li>
+              <li>Kel. Boris Samosir / br. Banjarnahor</li>
+              <li>Kel. L. Reresi / br. Gurning</li>
+              <li>Kel. G. Simanjorang / br. Sianipar</li>
+              <li>Kel. Paima Ompusunggu / br. Simanjorang</li>
+              <li>Kel. Afrindo Girsang / br. Munthe</li>
+              <li>Kel. D. Lumban Gaol / br. Simanjuntak</li>
+              <li>Kel. L. Lumban Gaol / br. Sihombing (Idel)</li>
+              <li>Kel. Op. Manuara Lumban Batu / br. Sinambela</li>
+              <li>Kel. A. Manuara Lumban Batu / br. Sinambela</li>
+              <li>Kel. A. Cahaya Pandiangan / br. Tamba</li>
+              <li>Kel. P. Situmorang / br. Manurung (Op. Guido)</li>
+              <li>Kel. S. Pandiangan (+) / br. Pasaribu (Op. Cahaya)</li>
+              <li>Kel. G. Tarigan (Op. Julio B. Tarigan)</li>
+              <li>Kel. E. Siagian / br. Sianturi (Ignasia)</li>
+              <li>Kel. Ginting Resubun</li>
+              <li>Kel. Paima Hutapea / br. Naibaho</li>
+              <li>Kel. L. Sinaga / br. Naibaho (Elbert)</li>
+              <li>Kel. Op. Christiella L. Gaol / br Sihombing</li>
+              <li>Kel. Bpk. Christiella L. Gaol / br Sihombing</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki St. Bernadus, Aimas</h4>
+            <ol>
+              <li>Kel. A. Paima Gultom / br. Samosir</li>
+              <li>Kel. Manullang (+) / br. Pandiangan</li>
+              <li>Kel. A. Gracela Rumapea / br. Rajagukguk</li>
+              <li>Kel. Sinaga / br. Sihotang</li>
+              <li>Kel. J. Simamora / br. Pardosi (Cristabel)</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki St. Paulus Klamalu, SP1</h4>
+            <ol>
+              <li>Kel. Nadeak (+) / br. Siringoringo</li>
+              <li>Kel. Angkasa Silalahi / br. Siagian</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Paroki St. Fransiskus Xaverius, Bakbusun</h4>
+            <ol>
+              <li>Kel. R. Siagian / R. br. Sitorus (Op. Brillian)</li>
+              <li>Nn. Anju G. Siagian</li>
+              <li>Kel. A. Hutabarat / br. Manungkalit (Ama Henrison)</li>
+              <li>Kel. Pasaribu (+) / br. Manullang</li>
+              <li>Kel. Adolfus Nio Sianturi / br. Manurung</li>
+            </ol>
+          </div>
+          <div class="paroki-card">
+            <h4>Stasi St. Wenseslaus, Klawuyuk</h4>
+            <ol>
+              <li>Kel. Simamora (Op. Benediktus) / br. Manik</li>
+              <li>Kel. Sihotang / br. Simamora</li>
+              <li>Kel. Girsang / br. Sinaga</li>
+              <li>Kel. Simatupang / br. Sitohang</li>
+              <li>Kel. J. Simatupang / br. Sitohang</li>
+              <li>Kel. Naibaho / br. Manik</li>
+              <li>Kel. Rafael Samosir / br. Manurung</li>
+              <li>Kel. Ompusunggu / br. Sitorus</li>
+              <li>Kel. Tendeken / br. Lubis</li>
+              <li>Kel. J. Tambunan / br. Simanungkalit (Op. Christo)</li>
+              <li>Kel. Y. Gultom / br. Tambunan (A. Christo)</li>
+              <li>Kel. Clara Silaban / br. Purba</li>
+              <li>Kel. Frangky S / br. Sinaga</li>
+              <li>Kel. Bpk Harapan L. Gaol / br. Hutahayan</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       GALLERY SECTION
+       ============================================ -->
+  <section class="section gallery" id="galeri">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="accent-line"></span>
+        <h2>Galeri</h2>
+        <p>Momen-momen persaudaraan dan kegiatan IKKSU Sorong Raya.</p>
+      </div>
+
+      <div id="dynamic-gallery" class="dynamic-gallery">
+        <!-- Albums will be loaded here via gallery.js -->
+        <div class="gallery-loader">
+          <div class="spinner"></div>
+          <p>Memuat galeri...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="footer-gorga-border"></div>
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="images/logo-small.png" alt="Logo IKKSU Sorong Raya" class="logo-img">
+              <span class="footer-logo-name">Ikatan Keluarga Katolik Sumatera Utara<br><small>Sorong Raya, Provinsi Papua Barat Daya</small></span>
+            </div>
+            <p>
+              Ikatan Keluarga Katolik Sumatera Utara di Sorong Raya — 
+              bersatu dalam iman Katolik dan kekayaan budaya Sumatera Utara 
+              sejak 8 September 2003.
+            </p>
+            <div class="footer-quote">
+              "Hiduplah dalam kasih, seperti Kristus juga mengasihi kamu."
+              <br>— Efesus 5:2
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4>Tautan</h4>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#tentang">Tentang Kami</a>
+              <a href="#anggota">Keanggotaan</a>
+              <a href="#pendidikan">Kegiatan</a>
+              <a href="#galeri">Galeri</a>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4>Kontak</h4>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Kota Sorong,<br>Papua Barat Daya</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>ikksusorongraya<br>@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div>
+            <h4>Bergabunglah</h4>
+            <p style="font-size:0.9rem;color:rgba(255,255,255,0.5);margin-bottom:16px;line-height:1.7;">
+              Dapatkan informasi terbaru tentang kegiatan dan acara IKKSU Sorong Raya.
+            </p>
+            <div class="newsletter-input">
+              <input type="email" placeholder="Alamat email Anda" id="newsletterEmail">
+              <button aria-label="Subscribe">
+                <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="footer-bottom">
+        <span class="footer-copyright">© 2003–2026 IKKSU Sorong Raya. Semua hak dilindungi.</span>
+        <div class="footer-socials">
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="#" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="gallery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
