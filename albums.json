@@ -1,13 +1,32 @@
 [
   {
-    "id": "latihan-koor",
-    "path": "dokumentasi kegiatan/latihan-koor/",
+    "id": "paskah-2025",
+    "path": "dokumentasi kegiatan/paskah-2025/",
     "highlights": [
       "highlight (1).jpg",
       "highlight (2).jpg",
       "highlight (3).jpg",
       "highlight (4).jpg",
-      "highlight (5).jpg"
+      "highlight (5).jpg",
+      "highlight (6).jpg"
+    ]
+  },
+  {
+    "id": "natal-2025",
+    "path": "dokumentasi kegiatan/natal-2025/",
+    "highlights": [
+      "highlight1.jpg",
+      "highlight2.jpg"
+    ]
+  },
+  {
+    "id": "misa-etnis-2026",
+    "path": "dokumentasi kegiatan/misa-etnis-2026/",
+    "highlights": [
+      "highlight (1).jpeg",
+      "highlight (2).jpeg",
+      "highlight (3).jpeg",
+      "highlight (4).jpeg"
     ]
   },
   {
@@ -23,27 +42,14 @@
     ]
   },
   {
-    "id": "bonataon-2025",
-    "path": "dokumentasi kegiatan/bonataon-2025/",
+    "id": "latihan-koor",
+    "path": "dokumentasi kegiatan/latihan-koor/",
     "highlights": [
       "highlight (1).jpg",
       "highlight (2).jpg",
       "highlight (3).jpg",
       "highlight (4).jpg",
-      "highlight (5).jpg",
-      "highlight (6).jpg"
-    ]
-  },
-  {
-    "id": "paskah-2025",
-    "path": "dokumentasi kegiatan/paskah-2025/",
-    "highlights": [
-      "highlight (1).jpg",
-      "highlight (2).jpg",
-      "highlight (3).jpg",
-      "highlight (4).jpg",
-      "highlight (5).jpg",
-      "highlight (6).jpg"
+      "highlight (5).jpg"
     ]
   },
   {
@@ -58,13 +64,15 @@
     ]
   },
   {
-    "id": "misa-etnis-2026",
-    "path": "dokumentasi kegiatan/misa-etnis-2026/",
+    "id": "bonataon-2025",
+    "path": "dokumentasi kegiatan/bonataon-2025/",
     "highlights": [
       "highlight (1).jpg",
       "highlight (2).jpg",
       "highlight (3).jpg",
-      "highlight (4).jpg"
+      "highlight (4).jpg",
+      "highlight (5).jpg",
+      "highlight (6).jpg"
     ]
   }
 ]

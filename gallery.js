@@ -28,8 +28,10 @@ async function createAlbumCard(album) {
     let albumLink = '#';
     let albumDesc = '';
 
+    const encodedPath = encodeURI(album.path);
+
     try {
-        const res = await fetch(`${album.path}readme.txt`);
+        const res = await fetch(`${encodedPath}readme.txt`);
         const text = await res.text();
         
         const nameMatch = text.match(/Album Name:\s*(.*)/i);
@@ -51,7 +53,7 @@ async function createAlbumCard(album) {
     album.highlights.forEach(img => {
         highlightsHtml += `
             <div class="highlight-item">
-                <img src="${album.path}${img}" alt="${albumName}" loading="lazy">
+                <img src="${encodedPath}${encodeURI(img)}" alt="${albumName}" loading="lazy">
             </div>
         `;
     });
