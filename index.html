@@ -30,7 +30,9 @@
         <a href="#home" class="active">Home</a>
         <a href="#tentang">Tentang Kami</a>
         <a href="#anggota">Keanggotaan</a>
+        <a href="#daftar-kk">Daftar KK</a>
         <a href="#pendidikan">Kegiatan</a>
+        <a href="#jadwal">Jadwal</a>
         <a href="#galeri">Galeri</a>
         <a href="adrt.html">AD/ART</a>
       </div>
@@ -48,7 +50,9 @@
     <a href="#home">Home</a>
     <a href="#tentang">Tentang Kami</a>
     <a href="#anggota">Keanggotaan</a>
+    <a href="#daftar-kk">Daftar KK</a>
     <a href="#pendidikan">Kegiatan</a>
+    <a href="#jadwal">Jadwal</a>
     <a href="#galeri">Galeri</a>
     <a href="adrt.html">AD/ART</a>
   </div>
@@ -341,24 +345,11 @@
                 <th>Waktu</th>
                 <th>Lokasi Pelaksanaan</th>
               </tr>
-            </thead>
-            <tbody>
-              <tr><td>1</td><td>BAPAK. M. PURBA</td><td>Maret 2026</td><td>PAROKI STO. YOHPEM</td></tr>
-              <tr><td>2</td><td>Bapak. H. Ompusunggu</td><td>Mei 2026</td><td>PAROKI STO. PETRUS</td></tr>
-              <tr><td>3</td><td>Bapak. S. Marpaung</td><td>Juli 2026</td><td>PAROKI KATEDRAL</td></tr>
-              <tr><td>4</td><td>BAPAK. IDEL. LUMBANGAOL</td><td>September 2026</td><td>PAROKI STO. YOHPEM</td></tr>
-              <tr><td>5</td><td>NY. BR. MANIK (OP. BEN)</td><td>November 2026</td><td>PAROKI STO. PETRUS</td></tr>
-              <tr><td>6</td><td>MAMA SARTON SARAGIH</td><td>Januari 2027</td><td>PAROKI KATEDRAL</td></tr>
-              <tr><td>7</td><td>BAPAK. EDMUNDUS KALAU PANJAITAN</td><td>Maret 2027</td><td>PAROKI STO. YOHPEM</td></tr>
-              <tr><td>8</td><td>Bapak. H. Ompusunggu</td><td>Mei 2027</td><td>PAROKI STO. PETRUS</td></tr>
-              <tr><td>9</td><td>BAPAK. M. SIRINGORINGO</td><td>Juli 2027</td><td>PAROKI KATEDRAL</td></tr>
-              <tr><td>10</td><td>BAPAK. G. SIMANJORANG</td><td>September 2027</td><td>PAROKI STO. YOHPEM</td></tr>
-              <tr><td>11</td><td>NY. BR. MANIK (OP. BEN)</td><td>November 2027</td><td>PAROKI STO. PETRUS</td></tr>
-              <tr><td>12</td><td>Bapak. S. Marpaung</td><td>Januari 2028</td><td>PAROKI KATEDRAL</td></tr>
-              <tr><td>13</td><td>BAPAK. F. SAMOSIR</td><td>Maret 2028</td><td>PAROKI STO. YOHPEM</td></tr>
-              <tr><td>14</td><td>Bapak. H. Ompusunggu</td><td>Mei 2028</td><td>PAROKI STO. PETRUS</td></tr>
-              <tr><td>15</td><td>BAPAK. M. SIRINGORINGO</td><td>Juli 2028</td><td>PAROKI KATEDRAL</td></tr>
+                       <tbody id="jadwal-body">
+              <!-- Jadwal will be loaded here via dynamic-lists.js -->
+              <tr><td colspan="4" style="text-align:center;">Memuat jadwal...</td></tr>
             </tbody>
+ </tbody>
           </table>
         </div>
         <p class="schedule-note"><strong>Catatan:</strong> Jika pemimpin ibadah berhalangan, mohon dikonfirmasikan kepada Ketua IKKSU dan segera mencari pengganti. Terimakasih.</p>
@@ -443,108 +434,11 @@
       </div>
 
       <!-- Member List by Paroki -->
-      <div class="members-directory reveal">
+      <div class="members-directory reveal" id="daftar-kk">
         <h3 class="subsection-title">Daftar Kepala Keluarga (KK) Per Paroki</h3>
-        <div class="paroki-grid">
-          <div class="paroki-card">
-            <h4>Paroki Katedral, Kampung Baru</h4>
-            <ol>
-              <li>Kel. Op. Cecilia Siringoringo / br. Rumapea</li>
-              <li>Kel. Maximilian Siringoringo / br. Rumapea</li>
-              <li>Kel. Rama Damanik / br. Simanjuntak (Eiren)</li>
-              <li>Kel. J. Saragih / br. Purba (Sarton)</li>
-              <li>Kel. S. Marpaung / br. Rajagukguk (Op. Shankara)</li>
-              <li>Kel. Siburian / br. Pasaribu</li>
-              <li>Kel. J. Tarigan / br. Ginting (Op. Veronika)</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki Emaus</h4>
-            <ol>
-              <li>Kel. Op. Lukas Simanjorang (+) / br. Manurung</li>
-              <li>Z.Marpaung / Br Tampubolon (Bp Wati)</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki St. Petrus, Remu</h4>
-            <ol>
-              <li>Kel. Daniel Ginting / br. Sembiring (Bp. Bethesda)</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki St. Yohanes Pembaptis</h4>
-            <ol>
-              <li>Kel. Gava Situmorang / br. Sitinjak</li>
-              <li>Kel. Tambunan / br. Manurung (Gaby)</li>
-              <li>Kel. J. Tambunan / br. Harianja (Bpk. Juan)</li>
-              <li>Kel. Purba / br. Manurung (Orin)</li>
-              <li>Kel. Boris Samosir / br. Banjarnahor</li>
-              <li>Kel. L. Reresi / br. Gurning</li>
-              <li>Kel. G. Simanjorang / br. Sianipar</li>
-              <li>Kel. Paima Ompusunggu / br. Simanjorang</li>
-              <li>Kel. Afrindo Girsang / br. Munthe</li>
-              <li>Kel. D. Lumban Gaol / br. Simanjuntak</li>
-              <li>Kel. L. Lumban Gaol / br. Sihombing (Idel)</li>
-              <li>Kel. Op. Manuara Lumban Batu / br. Sinambela</li>
-              <li>Kel. A. Manuara Lumban Batu / br. Sinambela</li>
-              <li>Kel. A. Cahaya Pandiangan / br. Tamba</li>
-              <li>Kel. P. Situmorang / br. Manurung (Op. Guido)</li>
-              <li>Kel. S. Pandiangan (+) / br. Pasaribu (Op. Cahaya)</li>
-              <li>Kel. G. Tarigan (Op. Julio B. Tarigan)</li>
-              <li>Kel. E. Siagian / br. Sianturi (Ignasia)</li>
-              <li>Kel. Ginting Resubun</li>
-              <li>Kel. Paima Hutapea / br. Naibaho</li>
-              <li>Kel. L. Sinaga / br. Naibaho (Elbert)</li>
-              <li>Kel. Op. Christiella L. Gaol / br Sihombing</li>
-              <li>Kel. Bpk. Christiella L. Gaol / br Sihombing</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki St. Bernadus, Aimas</h4>
-            <ol>
-              <li>Kel. A. Paima Gultom / br. Samosir</li>
-              <li>Kel. Manullang (+) / br. Pandiangan</li>
-              <li>Kel. A. Gracela Rumapea / br. Rajagukguk</li>
-              <li>Kel. Sinaga / br. Sihotang</li>
-              <li>Kel. J. Simamora / br. Pardosi (Cristabel)</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki St. Paulus Klamalu, SP1</h4>
-            <ol>
-              <li>Kel. Nadeak (+) / br. Siringoringo</li>
-              <li>Kel. Angkasa Silalahi / br. Siagian</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Paroki St. Fransiskus Xaverius, Bakbusun</h4>
-            <ol>
-              <li>Kel. R. Siagian / R. br. Sitorus (Op. Brillian)</li>
-              <li>Nn. Anju G. Siagian</li>
-              <li>Kel. A. Hutabarat / br. Manungkalit (Ama Henrison)</li>
-              <li>Kel. Pasaribu (+) / br. Manullang</li>
-              <li>Kel. Adolfus Nio Sianturi / br. Manurung</li>
-            </ol>
-          </div>
-          <div class="paroki-card">
-            <h4>Stasi St. Wenseslaus, Klawuyuk</h4>
-            <ol>
-              <li>Kel. Simamora (Op. Benediktus) / br. Manik</li>
-              <li>Kel. Sihotang / br. Simamora</li>
-              <li>Kel. Girsang / br. Sinaga</li>
-              <li>Kel. Simatupang / br. Sitohang</li>
-              <li>Kel. J. Simatupang / br. Sitohang</li>
-              <li>Kel. Naibaho / br. Manik</li>
-              <li>Kel. Rafael Samosir / br. Manurung</li>
-              <li>Kel. Ompusunggu / br. Sitorus</li>
-              <li>Kel. Tendeken / br. Lubis</li>
-              <li>Kel. J. Tambunan / br. Simanungkalit (Op. Christo)</li>
-              <li>Kel. Y. Gultom / br. Tambunan (A. Christo)</li>
-              <li>Kel. Clara Silaban / br. Purba</li>
-              <li>Kel. Frangky S / br. Sinaga</li>
-              <li>Kel. Bpk Harapan L. Gaol / br. Hutahayan</li>
-            </ol>
-          </div>
+        <div class="paroki-grid" id="kk-container">
+          <!-- KK data will be loaded here via dynamic-lists.js -->
+          <p style="text-align:center; grid-column: 1/-1; color: rgba(255,255,255,0.5);">Memuat daftar KK...</p>
         </div>
       </div>
     </div>
@@ -603,7 +497,9 @@
               <a href="#home">Home</a>
               <a href="#tentang">Tentang Kami</a>
               <a href="#anggota">Keanggotaan</a>
+              <a href="#daftar-kk">Daftar KK</a>
               <a href="#pendidikan">Kegiatan</a>
+              <a href="#jadwal">Jadwal</a>
               <a href="#galeri">Galeri</a>
             </div>
           </div>
@@ -660,6 +556,7 @@
   </footer>
 
   <script src="gallery.js"></script>
+  <script src="dynamic-lists.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

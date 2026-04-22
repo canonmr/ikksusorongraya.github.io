@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = document.getElementById('mobileMenu');
   const navLinks = document.querySelectorAll('.nav-links a');
   const mobileLinks = document.querySelectorAll('.mobile-menu a');
-  const sections = document.querySelectorAll('section[id]');
+  const sections = document.querySelectorAll('section[id], #daftar-kk, #jadwal');
   const reveals = document.querySelectorAll('.reveal');
 
   // --- Mobile Menu Toggle ---
