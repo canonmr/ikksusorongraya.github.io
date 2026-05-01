@@ -61,15 +61,17 @@ async function loadJadwal() {
             const tr = document.createElement('tr');
             tr.innerHTML = `
                 <td>${item.no}</td>
-                <td>${item.pemimpin}</td>
+                <td>
+                    <strong>${item.pemimpin}</strong><br>
+                    <small style="color: rgba(255, 255, 255, 0.7); font-size: 0.85em;">(Asal: ${item.lokasi})</small>
+                </td>
                 <td>${item.waktu}</td>
-                <td>${item.lokasi}</td>
             `;
             jadwalBody.appendChild(tr);
         });
     } catch (error) {
         console.error('Error loading schedule:', error);
-        jadwalBody.innerHTML = '<tr><td colspan="4" style="text-align:center; color: var(--gorga-red);">Gagal memuat jadwal.</td></tr>';
+        jadwalBody.innerHTML = '<tr><td colspan="3" style="text-align:center; color: var(--gorga-red);">Gagal memuat jadwal.</td></tr>';
     }
 }
 
