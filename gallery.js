@@ -117,7 +117,7 @@ async function loadGallery() {
   if (!galleryContainer) return;
 
   try {
-    const response = await fetch('albums.json');
+    const response = await fetch(`albums.json?t=${Date.now()}`);
     const albums = sortAlbums(await response.json());
 
     galleryContainer.innerHTML = '';
